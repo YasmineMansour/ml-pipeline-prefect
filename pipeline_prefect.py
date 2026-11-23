@@ -6,7 +6,7 @@ from prefect import flow, get_run_logger, task
 
 PYTHON = sys.executable
 TARGETS = ["model_pipeline.py", "main.py", "pipeline_prefect.py"]
-REPO_URL = "https://github.com/YasmineMansour/ml-pipeline-prefect.git"
+REPO_URL = "git@github.com:YasmineMansour/ml-pipeline-prefect.git"
 REPO_DIR = os.path.expanduser("~/ml_project_git")
 
 
